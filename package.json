@@ -10,6 +10,7 @@
     "url": "git@github.com:Countingup/browser-logging.git"
   },
   "scripts": {
+    "test": "echo No tests.",
     "version": "npm run build",
     "publish": "git push --tags && npm run publish",
     "start": "node dist/loggingServer.js",
