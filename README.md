@@ -34,7 +34,13 @@ Calling `initialiseLoggingClient` after it's already initialised has no effect.
 
 ## Publishing
 
-To publish a new version, run
+Install `np` - https://github.com/sindresorhus/np:
+
+```
+yarn global add np
+```
+
+Run `np` and follow instructions.
 
 ## License
 
