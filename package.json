@@ -1,6 +1,6 @@
 {
   "name": "browser-logging",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Send logs from browser to node server",
   "license": "MIT",
   "main": "./dist/index.js",
