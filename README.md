@@ -32,6 +32,10 @@ initialiseLoggingClient();
 
 Calling `initialiseLoggingClient` after it's already initialised has no effect.
 
+## Publishing
+
+To publish a new version, run
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT) License.
