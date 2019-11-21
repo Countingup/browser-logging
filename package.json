@@ -1,8 +1,37 @@
 {
   "name": "browser-logging",
-  "version": "0.0.1",
   "description": "Send logs from browser to node server",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Countingup/browser-logging.git"
+  },
   "main": "index.js",
   "license": "MIT",
-  "private": false
+  "scripts": {
+    "start": "node dist/loggingServer.js",
+    "build": "tsc",
+    "fmt": "prettier --write \"./**/*.{md,js,ts,tsx}\"",
+    "fmt-check": "prettier --list-different \"./**/*.{md,js,ts,tsx}\""
+  },
+  "dependencies": {
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^6.0.3",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.4.3",
+    "prettier": "^1.19.1"
+  },
+  "lint-staged": {
+    "*.{md,js,ts,tsx}": [
+      "yarn run prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
 }
