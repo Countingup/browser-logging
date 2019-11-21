@@ -11,8 +11,6 @@
   },
   "scripts": {
     "test": "echo No tests.",
-    "version": "npm run build",
-    "publish": "git push --tags && npm run publish",
     "start": "node dist/loggingServer.js",
     "build": "tsc",
     "fmt": "prettier --write \"./**/*.{md,js,ts,tsx}\"",
