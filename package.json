@@ -17,6 +17,10 @@
     "fmt": "prettier --write \"./**/*.{md,js,ts,tsx}\"",
     "fmt-check": "prettier --list-different \"./**/*.{md,js,ts,tsx}\""
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "devDependencies": {
     "@types/ws": "^6.0.3",
     "husky": "^3.1.0",
