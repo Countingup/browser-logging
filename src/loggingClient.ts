@@ -13,7 +13,7 @@ let initialised = false;
  * Allows retrieving logs when running Cypress tests.
  * Logging server must be running for this to work. See `cypress/loggingServer.js`.
  */
-export const initialise = () => {
+export const initialiseLoggingClient = () => {
   if (initialised) return;
   initialised = true;
 
