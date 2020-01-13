@@ -1,4 +1,6 @@
-# browser-logging
+# browser-logging (deprecated)
+
+Deprecated: please use https://github.com/Countingup/browser-logging-server and https://github.com/Countingup/browser-logging-client instead.
 
 Sends browser logs from client to node server.
 
